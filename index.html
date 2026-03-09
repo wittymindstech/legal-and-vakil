@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal & Vakil</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+<div class="container nav">
+<h1 class="logo">Legal & Vakil</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#lawyers">Expert Lawyers</a>
+<a href="#download">Download App</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<h2>Your Trusted Legal Partner</h2>
+<p>Expert Legal Solutions for Individuals & Businesses</p>
+<button onclick="book()">Talk to a Lawyer</button>
+</div>
+</section>
+
+<section id="services" class="services container">
+<h2>Our Legal Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="assets/images/marriage.jpg" class="service-img">
+<h3>Marriage Consultation</h3>
+<p>Category: Relationship</p>
+<button onclick="book()">Book Service</button>
+</div>
+
+<div class="card">
+<img src="assets/images/loan.jpg" class="service-img">
+<h3>Loan Settlement</h3>
+<p>Category: Finance & Disputes</p>
+<button onclick="book()">Book Service</button>
+</div>
+
+<div class="card">
+<img src="assets/images/notary.jpg" class="service-img">
+<h3>Notary</h3>
+<p>Category: Documentation</p>
+<button onclick="book()">Book Service</button>
+</div>
+
+<div class="card">
+<img src="assets/images/plot.jpg" class="service-img">
+<h3>Plot Verification</h3>
+<p>Category: Land</p>
+<button onclick="book()">Book Service</button>
+</div>
+
+<div class="card">
+<img src="assets/images/crime.jpg" class="service-img">
+<h3>Crime Case</h3>
+<p>Category: Civil</p>
+<button onclick="book()">Book Service</button>
+</div>
+
+<div class="card">
+<img src="assets/images/stamp.jpg" class="service-img">
+<h3>Stamp Paper</h3>
+<p>Category: Documentation</p>
+<button onclick="book()">Book Service</button>
+</div>
+
+<div class="card">
+<img src="assets/images/namechange.jpg" class="service-img">
+<h3>Name Change</h3>
+<p>Category: Documentation</p>
+<button onclick="book()">Book Service</button>
+</div>
+
+</div>
+</section>
+
+<section id="lawyers" class="lawyers container">
+<h2>Our Expert Lawyers</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="assets/images/lawyer1.jpg" class="lawyer-img">
+<h3>Adv. Rahul Sharma</h3>
+<p>Degree: LLB, LLM</p>
+<p>Expertise: Civil & Land Disputes</p>
+<p>Rating: ⭐⭐⭐⭐☆ (4.5)</p>
+<button onclick="book()">Book Consultation</button>
+</div>
+
+<div class="card">
+<img src="assets/images/lawyer2.jpg" class="lawyer-img">
+<h3>Adv. Priya Verma</h3>
+<p>Degree: LLB</p>
+<p>Expertise: Marriage & Family Law</p>
+<p>Rating: ⭐⭐⭐⭐⭐ (4.8)</p>
+<button onclick="book()">Book Consultation</button>
+</div>
+
+<div class="card">
+<img src="assets/images/lawyer3.jpg" class="lawyer-img">
+<h3>Adv. Arjun Singh</h3>
+<p>Degree: LLB Criminal Law</p>
+<p>Expertise: Criminal & Civil Cases</p>
+<p>Rating: ⭐⭐⭐⭐☆ (4.4)</p>
+<button onclick="book()">Book Consultation</button>
+</div>
+
+</div>
+</section>
+
+<section id="download" class="download">
+<div class="container">
+<h2>Download Our App</h2>
+<p>Get legal assistance anytime, anywhere</p>
+
+<div class="apps">
+<a class="appbtn">
+<img src="assets/images/appstore.png" class="store">
+</a>
+
+<a class="appbtn">
+<img src="assets/images/playstore.png" class="store">
+</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>© 2026 Legal & Vakil</p>
+</div>
+</footer>
+
+
+<div id="chatButton" onclick="toggleChat()">💬</div>
+
+<div id="chatBox">
+<div id="chatHeader">Legal AI Assistant</div>
+<div id="chatMessages"></div>
+
+<div class="chatInput">
+<input id="userInput" placeholder="Ask legal question...">
+<button onclick="sendMessage()">Send</button>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
