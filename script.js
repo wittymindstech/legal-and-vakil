@@ -19,16 +19,13 @@ chat.innerHTML+="<div><b>You:</b> "+msg+"</div>";
 let reply="Please consult our lawyer for detailed advice.";
 
 if(msg.includes("loan"))
-reply="Loan settlement cases can be negotiated legally. Our finance dispute lawyers can help.";
+reply="Loan settlement cases can be negotiated legally.";
 
 if(msg.includes("land")||msg.includes("plot"))
-reply="Land disputes usually require property verification and documentation.";
+reply="Land disputes require proper legal verification.";
 
 if(msg.includes("marriage"))
-reply="Marriage consultation includes divorce, custody, and family matters.";
-
-if(msg.includes("civil"))
-reply="Civil cases include property disputes, agreements, and notices.";
+reply="Marriage consultation includes divorce and custody issues.";
 
 chat.innerHTML+="<div><b>AI:</b> "+reply+"</div>";
 
